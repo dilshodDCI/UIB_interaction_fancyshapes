@@ -6,3 +6,32 @@ html, body {
 section {
     margin-top: 10px;
 }
+
+/* task -1 */
+.task-one{
+    background-color: aqua;
+}
+.task-one p::before{
+    content: "Once upon a time ....";
+    color:red;
+    background-color: blue;
+}
+.task-one p::after{
+    content:" ....The end . ";
+    color:violet;
+    background-color: blue;
+}
+/* task -2 */
+.task-two{
+    background: url(assets/beach.jpg) ;
+    width:500px;
+    height:500px;
+    clip-path:polygon(50% 0%,100% 50%,50% 100%,0% 50%);
+
+}
+
+/* task -3 */
+img.task-three{
+transform: rotate(180deg);
+}
+
